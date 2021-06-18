@@ -1,0 +1,10 @@
+development:
+    dialect: postgres
+    datasource: dbname=butify sslmode=disable host=localhost user=postgres
+    dir: migrations
+
+production:
+    dialect: postgres
+    datasource: dbname=butify sslmode=disable host=localhost user=postgres
+    dir: migrations/postgres
+    table: migrations
